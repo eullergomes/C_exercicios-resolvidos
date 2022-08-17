@@ -1,25 +1,25 @@
 #include <stdio.h>
 #include <locale.h>
 
-//Faça um programa que receba dois números e mostre qual deles é o maior.
+//FaÃ§a um programa que receba dois nÃºmeros e mostre qual deles Ã© o maior.
 
 int main(void){
     setlocale(LC_ALL, "Portuguese");
 
     int n1, n2;
 
-    printf("Digite o primeiro número: ");
+    printf("Digite o primeiro nÃºmero: ");
     scanf("%d", &n1);
 
-    printf("Digite o segundo número: ");
+    printf("Digite o segundo nÃºmero: ");
     scanf("%d", &n2);
 
     if (n1 > n2){
-        printf("%d é maior do que %d", n1, n2);
+        printf("%d Ã© maior do que %d", n1, n2);
     } else if(n2 > n1){
-        printf("%d é maior do que %d", n2, n1);
+        printf("%d Ã© maior do que %d", n2, n1);
     } else {
-        printf("%d é igual a %d", n1, n2);
+        printf("%d Ã© igual a %d", n1, n2);
     }
 
     return 0;
