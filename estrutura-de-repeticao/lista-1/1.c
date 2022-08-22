@@ -10,8 +10,9 @@ int main (void){
 
     for (int i = 1; i <= 5; i++){
         mult += 3;
+    
+        printf("%d\n", mult);
     }
-    printf("Soma = %d", mult);
 
     return 0;
 }
